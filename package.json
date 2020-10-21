@@ -1,0 +1,22 @@
+{
+  "name": "cypressexample",
+  "version": "1.0.0",
+  "description": "cypress end to end test",
+  "main": "test.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cypress"
+  },
+  "author": "Vivek Shringi",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^3.8.3"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.4.0"
+  }
+}
